@@ -1,8 +1,4 @@
 <?php
-//=============================================================================//
-// SCRIPT WRITTEN BY @YGX_WORLD TEAM, FOR EDUCATION PURPOSE ONLY.
-// Don't Sell this Script, This is 100% Free.
-//=============================================================================//
 $jsonFile = 'data.json';
 $jsonData = file_get_contents($jsonFile);
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
@@ -21,4 +17,3 @@ foreach ($data['data'] as $channel) {
     echo "$streamUrl\n\n";
 }
 exit;
-//@yuvraj824
