@@ -1,8 +1,4 @@
 <?php
-//=============================================================================//
-// SCRIPT WRITTEN BY @YGX_WORLD TEAM, FOR EDUCATION PURPOSE ONLY.
-// Don't Sell this Script, This is 100% Free.
-//=============================================================================//
 include_once '_functions.php';
 
 $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? "Mozilla/5.0";
@@ -53,4 +49,3 @@ if ($channelData === null) {
 $initialUrl = $channelData['url'];
 $w = getCookieZee5($userAgent);
 header("Location: $initialUrl?$w");exit;
-//@yuvraj824
